@@ -133,7 +133,7 @@ export class ButtonBase extends LitElement {
           <slot></slot>
         </span>
         <span class="trailing-icon">
-          <slot name="trailingIcon">
+          <slot name="trailingIcon"> Button test
             ${this.icon && this.trailingIcon ? this.renderIcon() : ''}
           </slot>
         </span>
